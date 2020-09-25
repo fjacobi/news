@@ -343,6 +343,8 @@ previewHiddenRecords
          .. note:: Be aware to secure the page (e.g. using a TS condition to make it available only if an BE user is logged in) as this page could be called by anyone using any news record uid to see its content.
 
          .. note:: If set, any hidden records on the current page are shown as well!
+	 
+	 .. note:: If you set the flexform configuration to 2, you need to set plugin.tx_news.settings.enablePreviewOfHiddenRecords = 1
    Default
       (no preview)
 
